@@ -55,8 +55,6 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
-# docker
-PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
@@ -69,22 +67,22 @@ PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # 首页和网络向导
 #PACKAGES="$PACKAGES luci-i18n-quickstart-zh-cn"
 # 去广告adghome
-#PACKAGES="$PACKAGES luci-app-adguardhome"
+PACKAGES="$PACKAGES luci-app-adguardhome"
 # 代理相关
-#PACKAGES="$PACKAGES luci-app-ssr-plus"
+PACKAGES="$PACKAGES luci-app-ssr-plus"
 #PACKAGES="$PACKAGES luci-app-passwall2"
-#PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
 # VPN
-#PACKAGES="$PACKAGES luci-app-tailscale"
-#PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
+PACKAGES="$PACKAGES luci-app-tailscale"
+PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
 # 分区扩容 by sirpdboy 
 #PACKAGES="$PACKAGES luci-app-partexp"
 #PACKAGES="$PACKAGES luci-i18n-partexp-zh-cn"
 # 酷猫主题 by sirpdboy 
 #PACKAGES="$PACKAGES luci-theme-kucat"
 # 网络测速 by sirpdboy 
-#PACKAGES="$PACKAGES luci-app-netspeedtest"
-#PACKAGES="$PACKAGES luci-i18n-netspeedtest-zh-cn"
+PACKAGES="$PACKAGES luci-app-netspeedtest"
+PACKAGES="$PACKAGES luci-i18n-netspeedtest-zh-cn"
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
